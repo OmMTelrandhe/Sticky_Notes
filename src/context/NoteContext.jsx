@@ -33,7 +33,7 @@ const NoteProvider = ({ children }) => {
                         height: "100vh",
                     }}
                 >
-                    {/* <Spinner size="100" /> */}
+                    <Spinner size="100" />
                 </div>) : (children)}
     </NoteContext.Provider>;
 }
